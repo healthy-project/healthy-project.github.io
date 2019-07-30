@@ -30,7 +30,7 @@ body {
 p {
   margin-bottom: 1em;
   margin-top: 1em;
-  font-family: "Lora", serif;
+  font-family: "Lato", serif;
   line-height: 1.4; }
 
 [tabindex="-1"]:focus {
@@ -402,7 +402,8 @@ pre {
     .button--alt-accent-outline .button__system_icon svg * {
       fill: #F90473; }
   .button--alt-accent-bg {
-    background-color: #F90473;
+    background-color: rgba(24, 247, 192, 1);
+color: black;};
     color: white; }
     .button--alt-accent-bg .icon svg *,
     .button--alt-accent-bg .button__system_icon svg * {
@@ -1460,7 +1461,7 @@ button.button {
   flex-wrap: wrap; }
 
 .logos__img {
-  max-height: 50px; }
+  max-height: 64px; }
 
 .form__inputs {
   display: flex;
@@ -1772,11 +1773,12 @@ button.button {
       background-color: #4D61FC;
       box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.18); }
   .slick-dots button {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: #DFEAFE;
     font-size: 0;
+    margin: 15px;
     cursor: pointer;
     transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
 
@@ -2289,7 +2291,7 @@ button.button {
   text-align: center; }
 
 .header-04__overlay, .header-16__overlay, .header-17__overlay, .header-55__overlay {
-  background-color: rgba(77, 97, 252, 0.75); }
+  background-color: rgba(43, 166, 242, 0.85); }
 
 .header-18__overlay {
   background-color: rgba(48, 48, 48, 0.8); }
@@ -2323,9 +2325,9 @@ button.button {
   max-width: 480px; }
 
 .header-04__logos, .header-16__logos, .header-17__logos, .header-18__logos, .header-55__logos {
-  margin-top: 170px; }
+  margin-top: 100px; }
   .header-04__logos .logos__img, .header-16__logos .logos__img, .header-17__logos .logos__img, .header-18__logos .logos__img, .header-55__logos .logos__img {
-    opacity: 0.3; }
+    opacity: 1; }
   @media (max-width: 1366px) {
     .header-04__logos, .header-16__logos, .header-17__logos, .header-18__logos, .header-55__logos {
       margin-top: 120px; } }
@@ -5889,7 +5891,7 @@ button.button {
   z-index: 10; }
 
 .posts-01 {
-  padding: 70px 0 70px; }
+  padding:100px 0 100px; }
 
 .posts-01__wrapper {
   display: flex;
@@ -8337,7 +8339,7 @@ button.button {
   text-decoration: none; }
 
 .testimonials-01 {
-  padding: 70px 0 100px;
+  padding: 70px 0 0px;
   text-align: center; }
   @media (max-width: 800px) {
     .testimonials-01 .slider__arrow {
@@ -8388,7 +8390,8 @@ button.button {
   text-align: left; }
 
 .testimonials-01__logo {
-  max-height: 30px; }
+  
+  max-height: 64px; }
   .testimonials-01__logo--round {
     border-radius: 50%;
     box-shadow: 0 5px 15px 0 rgba(37, 44, 97, 0.15); }

@@ -116,7 +116,8 @@ pre {
   line-height: 1.5; }
 
 .heading, .text--04__big_text {
-  font-size: 2em; }
+  font-size: 2em; 
+color:rgba(43, 166, 242, 1);}
   @media (max-width: 768px) {
     .heading, .text--04__big_text {
       font-size: 1.7em; } }
@@ -1791,7 +1792,8 @@ button.button {
     text-align: center; }
     .title-box--center .title-box__text {
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto;
+margin-top: 40px;}
 
 .title-box__text {
   opacity: 0.9;
@@ -5902,7 +5904,7 @@ button.button {
 .posts-01__item {
   display: block;
   overflow: hidden;
-  height: 300px;
+  height: 360px;
   width: 30%;
   margin: 15px;
   min-width: 300px;
@@ -8405,7 +8407,7 @@ button.button {
 
 .testimonials-01__author {
   text-align: right;
-  color: #4D61FC;
+  color: rgba(43, 166, 242, 0.85);
   font-size: 14px;
   line-height: 1.4; }
 
@@ -10347,7 +10349,7 @@ button.button {
   text-align: center; }
 
 .features-02__items {
-  padding: 0;
+  padding-top: 40px;
   margin: 0;
   list-style: none;
   display: flex;
@@ -10371,20 +10373,21 @@ button.button {
 
 .features-02__item_box {
   max-width: 300px;
-  margin: auto; }
+  margin: auto; 
+text-align: center;}
 
 .features-02__number {
   position: relative;
-  font-size: 50px;
-  font-weight: 700; }
+  font-size: 32px;
+  font-weight: 600;}
   .features-02__number:before {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -20px;
+    bottom: 0px;
     height: 2px;
     width: 30px;
-    background-color: #4D61FC; }
+     }
   @media (max-width: 600px) {
     .features-02__number {
       font-size: 35px; } }
@@ -10392,12 +10395,13 @@ button.button {
 .features-02__word {
   vertical-align: baseline;
   margin-left: 5px;
-  font-size: 16px;
-  font-weight: 400; }
+  font-size: 24px;
+  font-weight: 500; }
 
 .features-02__description {
-  margin-top: 50px;
-  max-width: 400px; }
+  margin-top: 30px;
+  max-width: 400px;
+text-align: center;}
 
 .features-03 {
   padding: 70px 0 40px; }

@@ -1865,7 +1865,7 @@ button.button {
     .nav-01 {
       position: fixed;
       padding: 10px 0;
-      background-color: #303030; } }
+      background-color: #18F7C0; } }
 
 .nav-01__box {
   display: flex;
@@ -2343,7 +2343,7 @@ button.button {
       .header-04__logos .logos__item, .header-16__logos .logos__item, .header-17__logos .logos__item, .header-18__logos .logos__item, .header-55__logos .logos__item {
         margin-bottom: 30px; }
       .header-04__logos .logos__img, .header-16__logos .logos__img, .header-17__logos .logos__img, .header-18__logos .logos__img, .header-55__logos .logos__img {
-        max-height: 16px; } }
+        max-height: px; } }
 
 .header-05__container, .header-19__container, .header-20__container, .header-56__container {
   position: relative;
@@ -5933,7 +5933,9 @@ button.button {
 
 .posts-01__info {
   color: #636363;
-  line-height: 1.4; }
+  line-height: 1.4;
+    margin-top: 10px;
+}
 
 .posts-01__link {
   padding-top: 40px;
@@ -5992,7 +5994,7 @@ button.button {
       height: 60px; } }
 
 .posts-03 {
-  padding: 70px 0 70px; }
+  padding: 70px 0 0px; }
 
 .posts-03__wrapper {
   overflow: hidden;
@@ -8391,7 +8393,8 @@ button.button {
 
 .testimonials-01__logo {
   
-  max-height: 64px; }
+  max-height: 64px; 
+}
   .testimonials-01__logo--round {
     border-radius: 50%;
     box-shadow: 0 5px 15px 0 rgba(37, 44, 97, 0.15); }
@@ -12573,3 +12576,20 @@ a.pswp__share--download:hover {
 .pswp__bg {
   transition: none !important;
   background-color: rgba(0, 0, 0, 0.8); }
+
+.header-04 .js-subscribe-mailchimp-form {
+    max-width: 600px;
+    text-align: center;
+        margin: auto;
+}
+
+.about_team {
+    text-align: center;
+    padding: 25px;
+    max-width: 300px;
+    min-height: 340px;
+}
+
+.team-01__picture {
+    vertical-align: top;
+}
